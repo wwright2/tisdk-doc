@@ -1,0 +1,45 @@
+root@am335x-evm:~# reboot -f
+[  197.274536] musb-hdrc musb-hdrc.1: remove, state 1
+[  197.280548] usb usb1: USB disconnect, device number 1
+[  197.285919] usb 1-1: USB disconnect, device number 2
+[  197.305938] musb-hdrc musb-hdrc.1: USB bus 1 deregistered
+[  197.322906] Restarting system.
+
+U-Boot SPL 2013.01.01-svn8 (Mar 17 2015 - 17:36:54)
+@@@@@@@@@@Using Dcim Board Configuration==========
+Using DCIM Pin Mux
+*************calling am33xx_spl_board_init$$$$$$$$$$
+$$$ i2c probe returned with error
+$$$$$$$$$$called am33xx_spl_board_init*************
+$$$ i2c probe returned with error
+OMAP SD/MMC: 0
+reading args
+spl: error reading image args, err - -1
+reading u-boot.img
+reading u-boot.img
+
+
+U-Boot 2013.01.01-svn8 (Mar 17 2015 - 17:36:54)
+
+I2C:   ready
+DRAM:  1 GiB
+NAND:  No NAND device found!!!
+0 MiB
+MMC:   OMAP SD/MMC: 0
+*** Warning - readenv() failed, using default environment
+
+wamanmusb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+musb-hdrc: MHDRC RTL version 2.0
+musb-hdrc: setup fifo_mode 4
+musb-hdrc: 28/31 max ep, 16384/16384 memory
+USB Peripheral mode controller at 47401000 using PIO, IRQ 0
+wamanmusb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+musb-hdrc: MHDRC RTL version 2.0
+musb-hdrc: setup fifo_mode 4
+musb-hdrc: 28/31 max ep, 16384/16384 memory
+USB Host mode controller at 47401800 using PIO, IRQ 0
+Net:   <ethaddr> not set. Validating first E-fuse MAC
+PHY reset timed out
+cpsw, usb_ether
+Hit any key to stop autoboot:  0
+

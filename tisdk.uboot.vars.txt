@@ -1,0 +1,11 @@
+setenv netmask 255.255.255.0
+setenv gatewayip 192.168.1.1
+setenv ipaddr 192.168.1.30
+setenv serverip 192.168.1.103
+setenv hostname dcim
+
+#setenv static_ip ${ipaddr}:${serverip}:${gatewayip}:${netmask}:${hostname}::on
+#setenv netargs setenv bootargs console=${console} ${optargs} root=/dev/nfs nfsroot=${serverip}:${rootpath},${nfsopts} rw ip=${static_ip}
+#setenv bootfile zImage
+#setenv netboot 'echo Booting from network ...; setenv autoload no; tftp ${loadaddr} ${bootfile}; run netargs; bootm ${loadaddr}'
+
